@@ -18,7 +18,7 @@ const Tempapp = () => {
 
         const fetchApi = async () => {
 
-            const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=${process.env.REACT_APP_API_KEY}
+            const url = `https://api.openweathermap.org/data/2.5/weather?q=${search}&units=metric&appid=363bc3ff4c955c414258c2de62957a9d
             `
 
            const  response = await fetch(url);
